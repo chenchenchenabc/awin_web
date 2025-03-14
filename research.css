@@ -1,3 +1,12 @@
+.circle-img {
+    width: 50px;  /* 圓形大小 */
+    height: 50px; /* 讓寬高相等，形成圓形 */
+    border-radius: 75%;
+    object-fit: cover; /* 確保圖片填滿圓形 */
+    display: block;
+    float: right;
+}
+
 #research-content strong {
     font-size: 28px;
     color: #000000;
@@ -85,6 +94,15 @@
 
 /* 手機版樣式 */
 @media screen and (max-width: 768px) {
+    .circle-img {
+        width: 50px;  /* 圓形大小 */
+        height: 50px; /* 讓寬高相等，形成圓形 */
+        border-radius: 75%;
+        object-fit: cover; /* 確保圖片填滿圓形 */
+        display: block;
+        float: right;
+    }
+
     #research-content strong {
         font-size: 28px;
         color: #000000;
